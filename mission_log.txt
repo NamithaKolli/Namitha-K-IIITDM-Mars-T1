@@ -1,0 +1,2 @@
+The terminal shows ERROR whenever we give a command which is valid
+however it will not show any ERROR when we specify it as comments .
