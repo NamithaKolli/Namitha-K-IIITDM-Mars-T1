@@ -1,37 +1,37 @@
 # Namitha-K-IIITDM-Mars-T1
-This is my submission of mars club task 1 2025.
-Finally completed all the light dose and medium dose qousetions and 1 hard dose. The questions were really amazing .
-#**Light Dose**
-*Questions 1 to 10 are in CS24B1016script.sh file*
-*Question for Bashscripting is in rover_system_check.sh file*
-To solve light dose problems it is necessary to learn the basic commands of linux terminal and bashscripting
-Basic linux commands:
-1.mkdir-create a new directory in the current directory
-2.cd-change to other directory
-3.rmdir-remove directory
-4.gedit-edit text file
-5.nano-used to edit bashscript etc...
-##What is Bash script actually and why is it useful?
-it is a simple text file which stores a series of commands which can be executed when thefile is attached by setting it to 
-basb type (generally.sh extension file starting with #!/bin/bash)
-It makes life simple , as we do not have to type the repeating commands in a program again and again.
-I followed the following link for learning basic bash commands : [https://devhints.io/bash]
-#**Medium Dose**
-##Question 1
-The rover's camera is mounted ahead of the center so it rotates by 360 degrees before cente of the rover reaches the markdown
-so everytime a markdown is detected the coordinate of y(i considered ) should be shifted by 55 cm.
-using shifting of origin method:
-x′=x−a      y′=y−b      z′=z−b
-*(x,y,z) are the original coordinates of the point.
-*(a,b,c) is the new origin of the coordinate system.
-*(x′,y′,z') are the new coordinates of the point after shifting the origin.
-##**Question 2**
-*Morse code is a encoded sequence of (.)dots and (-)dashes that must be decoded to be understood by humans.
-*its quite not possible someone would see all the symbols of morse code(but i had to type for the code!) so i'll just give one example A is ".-".
-*in a morse code words are separated by *double spaces* and letters are separated by *single spaces* so i used *strtok* to separate out each word 
-and further each letter in each word to print its english equivalent by checking with values of morse code stored in sequence in an *array*.
-##**Question 3**
-*This was personally the easiest question for me because i didnt have to learn any new concept or fact to solve this. 
+This is my submission of mars club task 1 2025.  
+Finally completed all the light dose and medium dose qousetions and 1 hard dose. The questions were really amazing .  
+#**Light Dose**  
+*Questions 1 to 10 are in CS24B1016script.sh file*  
+*Question for Bashscripting is in rover_system_check.sh file*  
+To solve light dose problems it is necessary to learn the basic commands of linux terminal and bashscripting  
+Basic linux commands:  
+1.mkdir-create a new directory in the current directory  
+2.cd-change to other directory  
+3.rmdir-remove directory  
+4.gedit-edit text file  
+5.nano-used to edit bashscript etc...  
+##What is Bash script actually and why is it useful?  
+it is a simple text file which stores a series of commands which can be executed when thefile is attached by setting it to  
+basb type (generally.sh extension file starting with #!/bin/bash)  
+It makes life simple , as we do not have to type the repeating commands in a program again and again.  
+I followed the following link for learning basic bash commands : [https://devhints.io/bash]  
+#**Medium Dose**  
+##Question 1  
+The rover's camera is mounted ahead of the center so it rotates by 360 degrees before cente of the rover reaches the markdown  
+so everytime a markdown is detected the coordinate of y(i considered ) should be shifted by 55 cm.  
+using shifting of origin method:  
+x′=x−a      y′=y−b      z′=z−b  
+*(x,y,z) are the original coordinates of the point.  
+*(a,b,c) is the new origin of the coordinate system.  
+*(x′,y′,z') are the new coordinates of the point after shifting the origin.  
+##**Question 2**  
+*Morse code is a encoded sequence of (.)dots and (-)dashes that must be decoded to be understood by humans.  
+*its quite not possible someone would see all the symbols of morse code(but i had to type for the code!) so i'll just give one example A is ".-".  
+*in a morse code words are separated by *double spaces* and letters are separated by *single spaces* so i used *strtok* to separate out each word  
+and further each letter in each word to print its english equivalent by checking with values of morse code stored in sequence in an *array*.  
+##**Question 3**  
+*This was personally the easiest question for me because i didnt have to learn any new concept or fact to solve this.   
 *Though the sample input was a single word I thought that if rover really wanted to send some encrypted message it wouldn't be a single word
 so I considered taking input as a sentence in the code. {scanf("%[^\n]",encrypted_input);}
 *Here the logic in each word is to decode a word we have to set a loop counter (in my case j) and go j word back for each letter while j is 
