@@ -17,7 +17,7 @@ basb type (generally.sh extension file starting with #!/bin/bash)
 It makes life simple , as we do not have to type the repeating commands in a program again and again.  
 I followed the following link for learning basic bash commands : [https://devhints.io/bash]  
 #**Medium Dose**  
-##Question 1  
+##**Question 1**  
 The rover's camera is mounted ahead of the center so it rotates by 360 degrees before cente of the rover reaches the markdown  
 so everytime a markdown is detected the coordinate of y(i considered ) should be shifted by 55 cm.  
 using shifting of origin method:  
@@ -32,38 +32,38 @@ x′=x−a      y′=y−b      z′=z−b
 and further each letter in each word to print its english equivalent by checking with values of morse code stored in sequence in an *array*.  
 ##**Question 3**  
 *This was personally the easiest question for me because i didnt have to learn any new concept or fact to solve this.   
-*Though the sample input was a single word I thought that if rover really wanted to send some encrypted message it wouldn't be a single word
-so I considered taking input as a sentence in the code. {scanf("%[^\n]",encrypted_input);}
+*Though the sample input was a single word I thought that if rover really wanted to send some encrypted message it wouldn't be a single word  
+so I considered taking input as a sentence in the code. {scanf("%[^\n]",encrypted_input);}  
 *Here the logic in each word is to decode a word we have to set a loop counter (in my case j) and go j word back for each letter while j is 
-incremented for each letter.
-*Here the wrap up case is important as if the letter to be decoded is A we will get some symbols instead of letters which is not the expected
-output(only Capital letters) so I considered the wrapping up case using :
-if(input[i]<'A')//Handling the case where the character goes less than A
-     {
-         input[i]=input[i]+26;
-     }
-##**Question 4**
-*This program reads numerical data from a file (log.txt) and applies two different types of filters to smooth the data: Muchiko Filter (average filter) and Sanchiko Filter (median filter).
-*To calculate Hybrid I calculated the mean of Sanchiko and Muchiko filter
-*considering various out puts I think *Hybrid filter is the best* as it smoothes the data and also noise is removed upto some extent.
-##**Question 5**
-*The 3D system of angles is also called Euler angles (roll,pitch,yaw) which we are sending to the friendly aliens Muchiko and Sanchiko
-*But they dont understand this they understand a 4 number system called quaternion system .
-*This system is better than our's because it avoids Gimbal lock.
-**FORMULA**:
-*x,y,z (roll,yaw,pitch) are the input 3D Euler angles
-let x',y',z' denote the half angles x/2,y/2 and z/2
-**W**,**X**.**Y**,**Z** Denote the Angles in 4 number system
-**W**=cos(x)×cos(y)×cos(z) + sin(x)×sin(y)×sin(z)
-**X**=sin(x)×cos(y)×cos(z) - cos(x)×sin(y)×sin(z)
-**Y**=cos(x)×sin(y)×cos(z) + sin(x)×cos(y)×sin(z)
-**Z**=cos(x)×cos(y)×sin(z) - sin(x)×sin(y)×cos(z)
-#**Hard Dose**
-##**Question 1**
-to read the input from the Obstacles.txt file the following file handling commands are necessary
-1.fopen(): Opens a file for reading, writing, or appending.
-2.fscanf(): Reads formatted data from the file (like scanf()).
-3.fclose() :to close the file
+incremented for each letter.  
+*Here the wrap up case is important as if the letter to be decoded is A we will get some symbols instead of letters which is not the expected  
+output(only Capital letters) so I considered the wrapping up case using :  
+if(input[i]<'A')//Handling the case where the character goes less than A  
+     {  
+         input[i]=input[i]+26;  
+     }  
+##**Question 4**  
+*This program reads numerical data from a file (log.txt) and applies two different types of filters to smooth the data: Muchiko Filter (average filter) and Sanchiko Filter (median filter).  
+*To calculate Hybrid I calculated the mean of Sanchiko and Muchiko filter  
+*considering various out puts I think *Hybrid filter is the best* as it smoothes the data and also noise is removed upto some extent.  
+##**Question 5**  
+*The 3D system of angles is also called Euler angles (roll,pitch,yaw) which we are sending to the friendly aliens Muchiko and Sanchiko  
+*But they dont understand this they understand a 4 number system called quaternion system .  
+*This system is better than our's because it avoids Gimbal lock.  
+**FORMULA**:  
+*x,y,z (roll,yaw,pitch) are the input 3D Euler angles  
+let x',y',z' denote the half angles x/2,y/2 and z/2  
+**W**,**X**.**Y**,**Z** Denote the Angles in 4 number system  
+**W**=cos(x)×cos(y)×cos(z) + sin(x)×sin(y)×sin(z)  
+**X**=sin(x)×cos(y)×cos(z) - cos(x)×sin(y)×sin(z)  
+**Y**=cos(x)×sin(y)×cos(z) + sin(x)×cos(y)×sin(z)  
+**Z**=cos(x)×cos(y)×sin(z) - sin(x)×sin(y)×cos(z)  
+#**Hard Dose**  
+##**Question 1**  
+to read the input from the Obstacles.txt file the following file handling commands are necessary  
+1.fopen(): Opens a file for reading, writing, or appending.  
+2.fscanf(): Reads formatted data from the file (like scanf()).  
+3.fclose() :to close the file  
 
 
 
