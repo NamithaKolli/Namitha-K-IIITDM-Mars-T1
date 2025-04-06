@@ -64,9 +64,9 @@ to read the input from the Obstacles.txt file the following file handling comman
 1.fopen(): Opens a file for reading, writing, or appending.  
 2.fscanf(): Reads formatted data from the file (like scanf()).  
 3.fclose() :to close the file  
-
-
-
-
-
- 
+This is my submission of mars club task 1 2025.
+## Git Push Screenshots
+### First Push
+![Push Git](push_git.png)
+### Second Push
+![Push 2](push2.png)
